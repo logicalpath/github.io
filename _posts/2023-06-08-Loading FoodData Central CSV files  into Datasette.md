@@ -3,9 +3,9 @@ layout: post
 title: "Loading Food Data Central into Datasette"
 ---
 
-I'm building a local database of food and nutrients contained in the food for personal use. I've decided to use the USDA FoodData Central data from the Foundations Foods [database](https://fdc.nal.usda.gov/download-datasets.html). I'm loading the data into [Datasette](https://datasette.io/) to explore the data.
+I'm building a local database of food and nutrients contained in the food for personal use. I've decided to use the USDA FoodData Central data from the Foundations Foods [database](https://fdc.nal.usda.gov/download-datasets.html){:target="_blank"}. I'm loading the data into [Datasette](https://datasette.io/){:target="_blank"} to explore the data.
 
-I used [sqlite-utils](https://sqlite-utils.datasette.io/en/stable/cli.html) to load csv files into the database:
+I used [sqlite-utils](https://sqlite-utils.datasette.io/en/stable/cli.html){:target="_blank"} to load csv files into the database:
 
 
 ```bash
@@ -52,7 +52,7 @@ Humus is found with different data_types. When I order by data_type, I find that
 - sample_food
 - sub_sample_food
 
-Each data_type refers to a separate table. I wonder what data_types occur in the food table. Datasette provides the ability to [facet](https://docs.datasette.io/en/stable/facets.html) by column. If I facet the food table by the data_type column, I see that there are 5 data_type values:
+Each data_type refers to a separate table. I wonder what data_types occur in the food table. Datasette provides the ability to [facet](https://docs.datasette.io/en/stable/facets.html){:target="_blank"} by column. If I facet the food table by the data_type column, I see that there are 5 data_type values:
 
 ![faceted]({{site.url}}/images/data_type_faceted.png)
 
