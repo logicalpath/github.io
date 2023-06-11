@@ -3,7 +3,10 @@ layout: post
 title: "Loading Food Data Central into Datasette"
 ---
 
-I'm building a local database of food and nutrients contained in the food for personal use. I've decided to use the USDA FoodData Central data from the Foundations Foods [database](https://fdc.nal.usda.gov/download-datasets.html){:target="_blank"}. I'm loading the data into [Datasette](https://datasette.io/){:target="_blank"} to explore the data.
+I'm building a local database of food and nutrients contained in the food for personal use. 
+I've decided to use the USDA FoodData Central data from the Foundations Foods
+[database](https://fdc.nal.usda.gov/download-datasets.html){:target="_blank"}. 
+I'm loading the data into [Datasette](https://datasette.io/){:target="_blank"} to explore the data.
 
 I used [sqlite-utils](https://sqlite-utils.datasette.io/en/stable/cli.html){:target="_blank"} to load csv files into the database:
 
