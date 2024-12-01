@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Using SMolVLM to describe photos"
+title: "Using SmolVLM to describe photos"
 ---
 
-I used this uv recipe after reading Simon Willison's [post](https://simonwillison.net/2024/Nov/28/smolvlm/){:target="_blank"} to load and run the [SMolVLM](https://huggingface.co/blog/smolvlm){:target="_blank"} language vision model.
+I used this uv recipe after reading Simon Willison's [post](https://simonwillison.net/2024/Nov/28/smolvlm/){:target="_blank"} to load and run the [SmolVLM](https://huggingface.co/blog/smolvlm){:target="_blank"} language vision model.
 
 ```bash
 uv run \
