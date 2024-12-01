@@ -25,11 +25,7 @@ Here is the image I used:
 
 Here is the output:
 
-Prompt: <|im_start|>User:<image>Describe this image in detail<end_of_utterance>
-
-Assistant:
-
- A wide shot of a rocky beach and ocean. The sky is clear with no clouds in sight, and the water is very blue and calm. There are some small waves breaking on the shore.
+> A wide shot of a rocky beach and ocean. The sky is clear with no clouds in sight, and the water is very blue and calm. There are some small waves breaking on the shore.
 
 
 
